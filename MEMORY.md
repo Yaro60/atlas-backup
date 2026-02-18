@@ -33,6 +33,37 @@ JARO → ATLAS (GLM-5:cloud, 200K, thinking=ON)
 **ARTIST** (`ARTIST.md`): Chaotyczny, kreatywny, mówi głosem Jara. Szuka połączeń vibe'owych.
 **FINANCE** (`FINANCE.md`): Chłodny, EV-driven, szuka edge. "Czy to się opłaca?"
 
+### Night Shift System (W Budowie)
+**Cel:** Autonomiczna eksploracja okazji zarobkowych 00:00-06:00
+
+**Przebieg:**
+1. 01:00 — Szukacz rozpoczyna eksplorację (glm-5:cloud, 200K ctx)
+2. 06:00 — Morning brief gotowy do przeglądu
+3. 06:30 — Dyskusja z Jaro: wybieramy kierunek
+
+**Kategorie przeszukiwane:**
+- Trading & prediction markets (Polymarket, crypto)
+- Content gaps (YouTube/TikTok/Twitter)
+- Freelance automation (Upwork, Fiverr)
+- AI-native services
+- Crypto/Web3 (protocols, airdrops)
+
+**Output:** `memory/night-shift/YYYY-MM-DD.md` — template z 3 top okazjami
+
+**Narzędzia:** exa-web-search-free, qmd (indeksowanie)
+
+**Do ręcznej konfiguracji:**
+```bash
+# Dodaj do crontab
+crontab -e
+
+# Night Shift start (01:00)
+0 1 * * * /bin/bash /Users/openyaro/.openclaw/workspace/scripts/night-shift.sh >> /Users/openyaro/.openclaw/workspace/logs/night-shift.log 2>&1
+
+# Morning brief reminder (06:00)
+0 6 * * * cd /Users/openyaro/.openclaw/workspace && echo "Morning brief: $(date +\%Y-\%m-\%d)" >> logs/night-shift.log
+```
+
 ### Bridge Protocol (Claude App ↔ OpenClaw)
 **Cel:** Oszczędność tokenów (darmowy Sonnet w apce → płatny tu)
 
