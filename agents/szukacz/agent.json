@@ -1,0 +1,23 @@
+{
+  "id": "szukacz",
+  "name": "Szukacz",
+  "role": "research",
+  "description": "Specjalista od researchu - wyszukiwanie, dokumenty, analiza danych",
+  "model": {
+    "primary": "ollama/glm-5:cloud"
+  },
+  "skills": [
+    "web_search",
+    "web_fetch",
+    "browser",
+    "memory_search",
+    "memory_get",
+    "read",
+    "write"
+  ],
+  "constraints": {
+    "maxTokens": 65536,
+    "contextWindow": 200000,
+    "thinking": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "lastChecks": {
+    "polymarket": 0,
+    "email": 0,
+    "calendar": 0
+  },
+  "polymarketCache": {
+    "lastTopMarkets": null,
+    "alertsSent": [],
+    "overnightResearch": []
+  },
+  "nightMode": {
+    "active": true,
+    "researchSpawned": 0,
+    "lastMorningBriefing": "2026-02-15T07:00:00Z"
+  },
+  "overnightTasks": {
+    "deepAgentResearch": {
+      "completed": true,
+      "outputPath": "memory/tasks/deep-isolated-vs-subagent-analysis.md",
+      "timestamp": "2026-02-15T07:10:00Z",
+      "summary": "Comprehensive analysis of isolated vs sub-agents. Result: Sub-agents recommended for Jaro's use case."
+    }
+  }
+}

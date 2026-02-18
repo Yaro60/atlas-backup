@@ -1,0 +1,22 @@
+{
+  "id": "gabriel",
+  "name": "Gabriel",
+  "role": "orchestrator",
+  "description": "Główny orkiestrator - routing, rozmowa, koordynacja",
+  "model": {
+    "primary": "ollama/kimi-k2.5:cloud"
+  },
+  "skills": [
+    "sessions_spawn",
+    "sessions_send",
+    "subagents",
+    "memory_search",
+    "memory_get"
+  ],
+  "canSpawn": ["andrzej", "szukacz"],
+  "constraints": {
+    "maxTokens": 16384,
+    "contextWindow": 131072,
+    "thinking": true
+  }
+}
