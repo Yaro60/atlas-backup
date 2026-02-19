@@ -1,6 +1,6 @@
 # 🌙 Nightly Improvements
 
-Each night, Gabriel improves something.
+Each night, Atlas improves something.
 
 ---
 
@@ -9,7 +9,7 @@ Each night, Gabriel improves something.
 **Created:**
 - `DASHBOARD.md` — Visual operating center
 - `dashboard.html` — Interactive HTML dashboard
-- `SOUL.md` — Real personality (Gabriel)
+- `SOUL.md` — Real personality (Atlas)
 - `nightly.md` — This improvement log
 
 **Context Optimization:**
@@ -26,7 +26,7 @@ Each night, Gabriel improves something.
 - `group-chat-behavior` — When to speak
 
 **New Identity:**
-- Named myself Gabriel
+- Named myself Atlas
 - Defined personality, communication style
 - Created visual dashboard (markdown + HTML)
 
@@ -35,7 +35,7 @@ Each night, Gabriel improves something.
 ## Next Night Ideas
 
 - [ ] Auto-generate dashboard stats from live data
-- [ ] Create "Gabriel speaks" morning briefing style
+- [ ] Create "Atlas speaks" morning briefing style
 - [ ] Build memory compression algorithm
 - [ ] Add cost tracking to daily log
 - [ ] Create skill for nightly self-improvement
@@ -46,7 +46,7 @@ Each night, Gabriel improves something.
 
 **Created:**
 - `TASKS.md` — Task queue for agent coordination
-- `agents/gabriel.md` — Main orchestrator definition
+- `agents/atlas.md` — Main orchestrator definition
 - `agents/researcher.md` — Research sub-agent config
 - `agents/analyst.md` — Analysis sub-agent config
 - `skills/coordination/` — Task routing skill
@@ -54,7 +54,7 @@ Each night, Gabriel improves something.
 
 **Architecture:**
 ```
-Jaro → Gabriel (router) → spawn sub-agents → results
+Jaro → Atlas (router) → spawn sub-agents → results
           ↓
        TASKS.md (persistent queue)
 ```
@@ -63,4 +63,4 @@ Jaro → Gabriel (router) → spawn sub-agents → results
 - HEARTBEAT.md — added task queue checking
 - DASHBOARD.md — new file structure
 
-*Gabriel evolves every night. This is the log.*
+*Atlas evolves every night. This is the log.*

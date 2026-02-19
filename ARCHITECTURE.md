@@ -1,4 +1,4 @@
-# GABRIEL — Final Architecture v1.1
+# ATLAS — Final Architecture v1.1
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
@@ -9,7 +9,7 @@
                               │
                               ▼
 ┌──────────────────────────────────────────────────────────────┐
-│                      GABRIEL (Main)                            │
+│                      ATLAS (Main)                            │
 │                                                              │
 │  Model: GLM-5:cloud                                          │
 │  Context: 200K                                               │
@@ -120,7 +120,7 @@ workspace/
 ├── HEARTBEAT.md        # Night research rules
 │
 ├── agents/
-│   ├── gabriel.md        # Main agent definition
+│   ├── atlas.md        # Main agent definition
 │   ├── researcher.md   # Research sub-agent
 │   └── analyst.md      # Analysis sub-agent
 │

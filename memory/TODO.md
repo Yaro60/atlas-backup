@@ -1,4 +1,4 @@
-# TODO - Gabriel & Jaro
+# TODO - Atlas & Jaro
 
 ## Priorytety
 1. **Polymarket Trading** — główne zadanie, alpha, automatyzacja

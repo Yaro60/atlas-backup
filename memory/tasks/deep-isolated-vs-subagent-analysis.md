@@ -504,7 +504,7 @@ Every source agrees: agents work better with focused, minimal context than with 
 1. **Sub-agents over isolated agents** — Solo operator, don't need workspace isolation
 2. **GLM-5 for all** — SOTA model, free, reasoning capable
 3. **Context isolation via spawn** — Each sub-agent gets fresh context
-4. **Managerial orchestration** — Gabriel coordinates, specialists execute
+4. **Managerial orchestration** — Atlas coordinates, specialists execute
 5. **3 specialists** — Alpha Hunter, Analyst, Trader (future)
 6. **Heartbeat separate** — Cheap local model for monitoring
 
