@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "socket": {
+    "path": "/Users/openyaro/.openclaw/exec-approvals.sock",
+    "token": "XedRXIp2rl03tCDcamlQg20JMwewUdSq"
+  },
+  "defaults": {},
+  "agents": {}
+}

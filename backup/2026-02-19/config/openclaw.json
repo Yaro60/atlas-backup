@@ -1,0 +1,127 @@
+{
+  "agents": {
+    "defaults": {
+      "heartbeat": {
+        "every": "30m",
+        "model": "ollama/llama3.2:3b",
+        "target": "last"
+      },
+      "model": {
+        "primary": "ollama/kimi-k2.5:cloud"
+      },
+      "workspace": "/Users/openyaro/.openclaw/workspace"
+    }
+  },
+  "channels": {
+    "telegram": {
+      "botToken": "8310893856:AAGU3xnOXa4KHiGEdx5r1JpsdRRTQa-7kqg",
+      "dmPolicy": "pairing",
+      "enabled": true,
+      "groupPolicy": "allowlist",
+      "streamMode": "partial"
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto"
+  },
+  "gateway": {
+    "auth": {
+      "mode": "token",
+      "token": "62f05b56b9f7fb7eed42e7d08fce097a9e587e75d9fe457a"
+    },
+    "bind": "loopback",
+    "mode": "local",
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "calendar.add",
+        "contacts.add",
+        "reminders.add"
+      ]
+    },
+    "port": 18789,
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    }
+  },
+  "meta": {
+    "lastTouchedAt": "2026-02-15T00:55:52.958Z",
+    "lastTouchedVersion": "2026.2.13"
+  },
+  "models": {
+    "providers": {
+      "ollama": {
+        "api": "openai-completions",
+        "apiKey": "ollama-local",
+        "baseUrl": "http://127.0.0.1:11434/v1",
+        "models": [
+          {
+            "contextWindow": 131072,
+            "cost": {
+              "cacheRead": 0,
+              "cacheWrite": 0,
+              "input": 0,
+              "output": 0
+            },
+            "id": "kimi-k2.5:cloud",
+            "input": [
+              "text"
+            ],
+            "maxTokens": 16384,
+            "name": "kimi-k2.5:cloud",
+            "reasoning": false
+          },
+          {
+            "contextWindow": 131072,
+            "cost": {
+              "cacheRead": 0,
+              "cacheWrite": 0,
+              "input": 0,
+              "output": 0
+            },
+            "id": "qwen3.5:cloud",
+            "input": [
+              "text"
+            ],
+            "maxTokens": 16384,
+            "name": "qwen3.5:cloud",
+            "reasoning": false
+          },
+          {
+            "contextWindow": 131072,
+            "cost": {
+              "cacheRead": 0,
+              "cacheWrite": 0,
+              "input": 0,
+              "output": 0
+            },
+            "id": "glm-5:cloud",
+            "input": [
+              "text"
+            ],
+            "maxTokens": 16384,
+            "name": "glm-5:cloud",
+            "reasoning": false
+          }
+        ]
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "telegram": {
+        "enabled": true
+      }
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-14T18:06:04.878Z",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local",
+    "lastRunVersion": "2026.2.13"
+  }
+}
