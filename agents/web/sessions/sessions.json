@@ -1,1 +1,32 @@
-{}
+{
+  "agent:szukacz:subagent:7aec5ccd-70aa-4e59-8d87-bb99b6b76a05": {
+    "sessionId": "b7be6398-50fb-4e56-b61b-d126010b759c",
+    "updatedAt": 1771494684576,
+    "thinkingLevel": "low",
+    "deliveryContext": {
+      "channel": "telegram"
+    },
+    "lastChannel": "telegram",
+    "label": "claude-automation-research",
+    "spawnedBy": "agent:gabriel:main",
+    "spawnDepth": 1,
+    "channel": "telegram",
+    "skillsSnapshot": {
+      "prompt": "",
+      "skills": [],
+      "skillFilter": [
+        "exa-web-search-free"
+      ],
+      "resolvedSkills": [],
+      "version": 0
+    },
+    "modelProvider": "ollama",
+    "model": "glm-5:cloud",
+    "contextTokens": 50000,
+    "abortedLastRun": false,
+    "inputTokens": 218887,
+    "outputTokens": 3673,
+    "totalTokens": 53182,
+    "totalTokensFresh": true
+  }
+}
