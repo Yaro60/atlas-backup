@@ -56,4 +56,4 @@
 - 
 
 ---
-*Wygenerowano przez Szukacz / Atlas Night Shift*
+*Wygenerowano przez Szukacz / Gabriel Night Shift*

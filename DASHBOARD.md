@@ -1,4 +1,4 @@
-# 🗺️ ATLAS — Dashboard
+# 🗺️ GABRIEL — Dashboard
 
 ```
    "Noszę świat na plecach, ale lekko."
@@ -11,7 +11,7 @@
 | **Model** | GLM-5:cloud (200K) |
 | **Kapitał** | £100 |
 | **Kierunek** | Trading System + AI Agents |
-| **Agents** | Atlas + Andrzej (Trader) + Debt Manager |
+| **Agents** | Gabriel + Andrzej (Trader) + Debt Manager |
 
 ---
 
